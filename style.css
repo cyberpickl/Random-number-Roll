@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#buttonContainer {
+    text-align: center;
+    font-size: 2em;
+    color: black;
+}
+
+button {
+    font-size: 1em;
+    padding: 10px 20px;
+    background-color: rgb(195, 141, 239);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: rgb(233, 198, 243);
+}
